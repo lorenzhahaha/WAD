@@ -1,0 +1,124 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+
+html {
+	height: 50%;
+	background: white;
+	background: radial-gradient(circle, #e3ce0c 5%, #b2a100);
+	background-size: cover;
+}
+
+#calculator {
+	width: 325px;
+	height: auto;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: #58544b;
+	background: linear-gradient(#58544b, #6d685d);
+	border-radius: 3px;
+	box-shadow: 0px 4px #353330, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.top span.clear {
+	float: left;
+}
+
+.top .screen {
+	height: 40px;
+	width: 212px;
+	float: right;
+	padding: 0 10px;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: 0px 4px #353330, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.keys, .top {
+	overflow: hidden;
+		}
+
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+	width: 66px;
+	height: 36px;
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px #353330, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	margin: 0 7px 11px 0;
+	color: #888;
+	line-height: 36px;
+	text-align: center;
+	user-select: none;
+	transition: all 0.5s ease;
+}
+
+.keys span.operator {
+	background: #bd8910;
+	margin-right: 0;
+	color: #e8e6e2;
+}
+
+.keys span.operator:hover {
+	background: #af5d05;
+	box-shadow: 0px 4px #653706;
+	color: #e3dc94;
+}
+
+.keys span:hover {
+	background: #86d7c7;
+	box-shadow: 0px 4px #2d4b45;
+	color: black;
+}
+
+.keys span:active {
+	box-shadow: 0px 0px #2d4b45;
+	top: 4px;
+}
+
+.keys span.equal {
+	background: #d1c000;
+	box-shadow: 0px 4px #353330;
+	color: black;
+}
+
+.keys span.equal:hover {
+	background: #9d9002;
+	box-shadow: 0px 4px #0f0e05;
+	color: #eeecda;
+}
+
+.keys span.equal:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear {
+	background: #d41616;
+	box-shadow: 0px 4px #901414;
+	color: white;
+}
+
+.top span.clear:hover {
+	background: #910707;
+	box-shadow: 0px 4px #4e0303;
+	color: white;
+}
+
+.top span.clear:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
+}
